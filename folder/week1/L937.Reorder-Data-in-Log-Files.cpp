@@ -1,3 +1,7 @@
+//split logs into letterlogs and digitlogs
+//sort letterlogs, compare log contents first, if they are the same, use log identifier to break the tie
+//return the concatenation of letterlogs and digitlogs
+
 class Solution {
 public:
     vector<string> reorderLogFiles(vector<string>& logs) {
